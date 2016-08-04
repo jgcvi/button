@@ -18,6 +18,12 @@
   },
   "devDependencies": {},
   "scripts": {
+  	"lite": "lite-server",
+    "postinstall": "typings install",
+	"tsc": "tsc",
+	"tsc:w": "tsc -w",
+	"typings": "typings",
+   	"start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
