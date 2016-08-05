@@ -13,6 +13,7 @@
     "ejs": "^2.5.1",
     "express": "^4.14.0",
     "lite-server": "^2.2.2",
+    "mongoose": "^4.5.8",
     "morgan": "^1.7.0",
     "path": "^0.12.7",
     "reflect-metadata": "^0.1.3",
