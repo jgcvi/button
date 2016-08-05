@@ -1,0 +1,20 @@
+{
+  "name": "button",
+  "description": "sewing web app",
+  "main": "systemjs.config.js",
+  "authors": [
+    "jgcvi"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jgcvi/button",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
