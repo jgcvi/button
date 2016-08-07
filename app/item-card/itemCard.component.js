@@ -9,9 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var item_1 = require('../models/item');
 var ItemCard = (function () {
     function ItemCard() {
     }
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', item_1.Item)
+    ], ItemCard.prototype, "item", void 0);
     ItemCard = __decorate([
         core_1.Component({
             selector: 'item-card',

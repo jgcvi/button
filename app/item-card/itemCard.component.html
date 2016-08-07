@@ -1,9 +1,7 @@
 <div class="card" (click)="viewItem(item)">
 	<div *ngIf="item">
 		<h4>{{item.name}}</h4>
-		<div *ngIf="item.img">
-			<img src="item.img"></img>
-		</div>
+		<img src={{item.img}}>
 		<div><label>{{item.price}}</label></div>
 	</div>
 </div>

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Item } from '../models/item'
 
 @Component({
 	selector: 'item-card',
@@ -6,4 +7,6 @@ import { Component, Input } from '@angular/core';
 	templateUrl: 'itemCard.component.html',
 })
 
-export class ItemCard { }
+export class ItemCard {
+	@Input() item: Item;
+}
