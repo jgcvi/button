@@ -1,5 +1,2 @@
-to test front end:
-	npm start
-
-to test back end:
-	node server.js
+to run, from the root directory, issue
+npm start && node server.js
